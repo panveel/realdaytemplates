@@ -1,0 +1,538 @@
+*{
+    box-sizing: border-box !important;
+}
+nav{
+    background-color: #fff !important;
+    /* font-size: 100px !important; */
+    
+}
+.myNav{
+    display: none;
+}
+
+/* .nav > li {
+    display: inline-block;
+    padding: 1.5em 2em;
+} */
+
+.uk-scrollspy-nav{
+    background-color: #0b78d1 !important;
+    color: #fff;
+}
+.r1-here> li > a:hover{
+    transition: 0.5s all;
+    color: #0b78d1;
+    text-decoration: none;
+   
+
+}
+.uk-accordion-content{
+    display: all !important;
+}
+ul.address {
+    /* margin-top: 1.5em; */
+    border-top: 1px dashed #fff;
+    /* padding-top: 0.5em; */
+    
+}
+ul.address li  {
+    display: block;
+}
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    /* color: #fff; */
+    margin-top: 1em;
+	font-weight: 100;
+}
+ul.address li ul.address-text li:nth-child(1){
+    width: 100%;
+    font-size: 15px;
+    float: left !important;
+}
+ul.address li ul.address-text li:nth-child(2){
+    width: 100%;
+    font-size: 15px;
+    /* margin-left: -100px !important; */
+    
+}
+ul.address li ul.address-text li a {
+    /* color: #fff; */
+	text-decoration:none;
+}
+ul.address li ul.address-text li a:hover{
+    color: #00bcd4;
+}
+.down{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon a.github:hover {border-color: #1d1d1d; background-color: #1d1d1d}
+.medium-icon a {font-size: 35px; width: 60px; height:60px; padding: 15px; margin-top: 20px;}
+.social-icon a {text-align: center; display:inline-block; border-radius: 100%; color: #232323; background-color: #fff;}
+.social-icon a:hover { color: #fff; -webkit-transform: scale(1.2); -ms-transform: scale(1.2); -moz-transform: scale(1.2); transform: scale(1.2); -o-transform: scale(1.2);}
+.social-icon a.facebook:hover {border-color: #3b5998; background-color: #3b5998;}
+.social-icon a.twitter:hover {border-color: #00aced; background-color: #00aced;}
+.social-icon a.google:hover {border-color: #dc4a38; background-color: #dc4a38;}
+.social-icon a.linkedin:hover {border-color: #0077b5; background-color: #0077b5;}
+
+.medium-icon > li{
+    list-style: none;
+    display: inline;
+   margin-right: 40px;
+    margin-left: 40px; 
+}
+#Ruth{
+    position: relative;
+    top: 50%;  
+    /* width: 24em; */
+    /* margin: 0 auto; */
+    border-right: 2px solid rgba(255,255,255,.75);
+    /* font-size: 2em; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.my-name{
+    animation: typewriter 4s steps(44) 2s infinite normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+  .name{
+    margin: 10em auto;
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.72); */
+    /* display: inline-block; */
+    /* padding: 2em; */
+    /* float: left; */
+    width: 60%;
+    color: #fff;
+    
+} 
+.name >h1{
+    color: #fff;
+    font-size: 80;
+}
+.space{
+   margin: 30px auto;
+  
+}
+
+h4 {
+    font-size: 1.6em;
+    color: #0b78d1;
+    margin-bottom: 1.5em;
+    border-bottom: 1px dashed #484848;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+}
+h6 {
+    margin-top: 50px;
+    font-size: 1em;
+    /* color: #fff; */
+    margin-bottom: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+h6 >span {
+    float: right;
+    font-size: 15px;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 2.2em;
+    width: 100%;
+    /* background-color: #484848; */
+    /* border-radius: 0; */
+}
+.progress-bar{
+    background-color: #0b78d1;
+}
+.card{
+    background-color: #fff;
+    width: 40%;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* height: 60%; */
+    /* width:  !important; */
+}
+.card1{
+   
+    height: 100% !important;
+}
+
+iframe{
+    width: 100%;
+    border: none;
+    height: 58%;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.about{
+    font-weight: bold;
+    color:#0b78d1;
+}
+h2{
+    font-weight: bold;
+}
+.info{
+    color: #00bcd4;
+}
+.white{
+    color: #fff;
+}
+.center{
+    margin-right: 300px;
+    margin-left: 300px;
+    float: center;
+}
+.margin{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border:0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#btn{
+    background-color: #fff;
+    color: #0b78d1;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+#btn:hover{
+    background-color: #0b78d1;
+    color: #fff;
+}
+textarea{
+    height:50px;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+}
+
+.last{
+    background-color: #0b78d1;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+ #roothub{
+    color:#0b78d1;
+    text-decoration: none;
+}
+.last > p > a{
+    text-decoration: none; 
+}
+.card:hover{
+    background-color: #0b78d1;
+    color: #fff;
+}
+.uk-card{
+    background-color: #fff;
+}
+/* .uk-dotnav:hover{
+    color:#00bcd4;
+} */
+p{
+    /* font-size: 20px; */
+    font-family: Tahoma,
+}
+.middle{
+    text-align:center;
+    
+}
+
+
+.gallery{
+    float: left;
+    width: 40%;
+}
+figcaption{
+    text-align: center;
+    /* width: 100%; */
+}
+figure > img{
+    /*width: 100%;*/
+    box-sizing: border-box;
+}
+.me{
+    display: none;
+}
+.flip{
+    display: none;
+}
+
+
+@media only screen and (max-width:320px) {
+   
+    .me{
+        display: visible !important;
+    }
+    .r1-here{
+        display: none; 
+    }
+    .uk-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #Ruth{
+        
+        font-size: 25px !important;
+        font-weight: 300 !important;
+    }
+    .name{
+        width: 100% !important;
+    }
+    .medium-icon > li{
+        display: inline-block;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .myNav{
+        display: block ;
+        float: right;
+    }
+    .progress{
+        height: 10px;
+    }
+    .card{
+        /* width: 100% !important; */
+        margin: 10px auto;
+    }
+    /* .myScroll{
+        display: none;
+      
+    }
+    .myNav.responsive{
+        position: absolute;
+        right: 0;
+        top: 0;
+    } */
+    /* #myScroll{
+        width: 48px;
+        height: 48px;
+        text-align: left;
+        background-color: #CC5200;
+        position: relative;
+        border: none;
+        float: right;
+        font: 0/0 a;
+        text-shadow: none;
+        color: transparent;
+        position: relative;
+        top: 0px;
+        right: 30px;
+    }
+    #myScroll:target > ul.r1-here {
+        display: block;
+        padding: 30px 20px 48px 20px;
+        background: #1f2024;
+        margin: 0 30px;
+        clear: both;
+        height: auto;
+        display: none;
+        clear: both;
+        width: auto;
+        float: right;
+        position: relative;
+        top: 12px;
+        right: 0 
+    } */
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .uk-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #Ruth{
+        font-size: 30px !important;
+        font-weight: 500 !important;
+    }
+    .name{
+        width: 100% !important;
+    }
+    .myNav{
+        display: block ;
+        float: right;
+    }
+    .r1-here{
+        display: none; 
+    }
+    .card{
+        /* width: 100% !important; */
+        margin: 10px auto;
+    }
+    .flip{
+        width: 100% !important;
+        height: 43% !important;
+    }
+    .medium-icon > li{
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .uk-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #Ruth{
+        
+        font-size: 35px !important ;
+        font-weight: 500 ;
+    }
+    .name{
+        width: 100% !important;
+    }
+    .myNav{
+        display: block ;
+        float: right;
+    }
+    .r1-here{
+        display: none; 
+    }
+    .card{
+        /* width: 100% !important; */
+        margin: 10px auto;
+    }
+    .flip{
+        width: 100% !important;
+        height: 45% !important;
+    }
+    .medium-icon > li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .uk-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #Ruth{
+       
+        font-size: 45px;
+        font-weight: 500 ;
+    }
+    .flip{
+        width: 80% !important;
+        height: 50% !important;
+    }
+    iframe{
+        height: 50% !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .uk-card{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #Ruth{
+       
+        font-size: 50px;
+        font-weight: 500;
+    }
+    iframe{
+        height: 35%;
+    }
+}
+    
+
+.topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* .topnav ul li a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav.responsive ul li a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+  }
