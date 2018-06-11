@@ -2,7 +2,7 @@
   "name": "express-userauthentication",
   "version": "0.0.0",
   "private": true,
-  "main": "app.js",
+  "main": "./views/index.ejs",
   "scripts": {
     "test":"echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
